@@ -1,0 +1,57 @@
+# Build results
+bin/
+obj/
+logs/
+log/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+# Rider / Visual Studio for Mac
+.idea/
+*.userprefs
+
+# Backup & temporary files
+~$*
+*.tmp
+*.bak
+*.swp
+*.orig
+
+# Test results
+TestResult*/
+*.coverage
+*.coveragexml
+
+# Entity Framework migrations (任意で除外)
+Migrations/
+
+# ASP.NET / Web app (他の演習で使う場合)
+wwwroot/
+.env
+.env.*
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local database files
+*.db
+*.sqlite
+*.mdf
+*.ldf
